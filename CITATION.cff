@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article."
+title: "Uncertainty-Calibrated Fault Diagnosis with XAI-Grounded LLM Explanations"
+type: software
+license: MIT
+repository-code: "https://github.com/metinzontul/uncertainty-calibrated-xai-llm-fault-diagnosis"
+authors:
+  - family-names: Yelmen
+    given-names: Ilkay
+    affiliation: "Istinye University"
+  - family-names: Zontul
+    given-names: Metin
+    affiliation: "Sivas University of Science and Technology"
+  - family-names: Bakir
+    given-names: Halit
+    affiliation: "Sivas University of Science and Technology"
+  - family-names: Karateke
+    given-names: Seda
+    affiliation: "Istanbul Atlas University"
+keywords:
+  - fault diagnosis
+  - explainable AI
+  - large language models
+  - uncertainty calibration
