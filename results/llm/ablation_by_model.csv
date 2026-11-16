@@ -1,0 +1,33 @@
+dataset,model_name,condition,EA@1,Recall,RankCorr,Hallucination,n
+CWRU,DeepSeek-V4.1-Flash-1017,percentages_only,1.0000,1.0000,1.0000,0.0000,30
+CWRU,DeepSeek-V4.1-Flash-1017,plain,0.2333,1.0000,-0.0444,0.0000,30
+CWRU,DeepSeek-V4.1-Flash-1017,rank_only,1.0000,1.0000,1.0000,0.0000,30
+CWRU,DeepSeek-V4.1-Flash-1017,xai_grounded,1.0000,1.0000,1.0000,0.0000,30
+CWRU,GLM-5.3-Flash,percentages_only,0.9667,1.0000,0.9556,0.0000,30
+CWRU,GLM-5.3-Flash,plain,0.3333,1.0000,0.0444,0.0000,30
+CWRU,GLM-5.3-Flash,rank_only,0.9667,1.0000,0.9556,0.0000,30
+CWRU,GLM-5.3-Flash,xai_grounded,1.0000,1.0000,0.9778,0.0000,30
+CWRU,GPT-5 Mini,percentages_only,1.0000,1.0000,1.0000,0.0000,30
+CWRU,GPT-5 Mini,plain,0.3333,1.0000,-0.0444,0.0000,30
+CWRU,GPT-5 Mini,rank_only,1.0000,1.0000,1.0000,0.0000,30
+CWRU,GPT-5 Mini,xai_grounded,1.0000,1.0000,1.0000,0.0000,30
+CWRU,Qwen3.5-9B,percentages_only,1.0000,0.8966,1.0000,0.0000,29
+CWRU,Qwen3.5-9B,plain,0.3000,0.8111,-0.0222,0.0000,30
+CWRU,Qwen3.5-9B,rank_only,1.0000,0.9195,1.0000,0.0000,29
+CWRU,Qwen3.5-9B,xai_grounded,1.0000,0.9333,1.0000,0.0000,30
+TEP,DeepSeek-V4.1-Flash-1017,percentages_only,1.0000,1.0000,1.0000,0.0000,24
+TEP,DeepSeek-V4.1-Flash-1017,plain,0.4167,1.0000,0.5000,0.0000,24
+TEP,DeepSeek-V4.1-Flash-1017,rank_only,1.0000,1.0000,1.0000,0.0000,24
+TEP,DeepSeek-V4.1-Flash-1017,xai_grounded,1.0000,0.9861,1.0000,0.0069,24
+TEP,GLM-5.3-Flash,percentages_only,1.0000,1.0000,0.8944,0.0000,24
+TEP,GLM-5.3-Flash,plain,0.3333,1.0000,0.3750,0.0000,24
+TEP,GLM-5.3-Flash,rank_only,1.0000,1.0000,0.8833,0.0000,24
+TEP,GLM-5.3-Flash,xai_grounded,0.9583,1.0000,0.8750,0.0000,24
+TEP,GPT-5 Mini,percentages_only,1.0000,0.9722,0.9750,0.0000,24
+TEP,GPT-5 Mini,plain,0.3333,0.9861,0.2806,0.0000,24
+TEP,GPT-5 Mini,rank_only,0.9167,1.0000,0.9000,0.0000,24
+TEP,GPT-5 Mini,xai_grounded,0.9583,1.0000,0.9194,0.0000,24
+TEP,Qwen3.5-9B,percentages_only,1.0000,0.7639,1.0000,0.0000,24
+TEP,Qwen3.5-9B,plain,0.4583,0.8194,0.1639,0.0000,24
+TEP,Qwen3.5-9B,rank_only,1.0000,0.8889,1.0000,0.0000,24
+TEP,Qwen3.5-9B,xai_grounded,1.0000,0.7917,1.0000,0.0000,24

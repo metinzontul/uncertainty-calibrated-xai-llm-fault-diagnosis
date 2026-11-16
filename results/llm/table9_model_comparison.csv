@@ -1,0 +1,9 @@
+dataset,level,plain_EA1,xai_EA1,delta,abstentions,n_error_free_records,n_responses,models_with_responses
+CWRU,+10 dB,0.375,1.0,0.625,16,120,104,4
+CWRU,+5 dB,0.3,1.0,0.7,16,120,104,4
+CWRU,0 dB,0.45,1.0,0.55,20,120,100,4
+CWRU,Clean,0.3,1.0,0.7,0,360,360,4
+TEP,Clean,0.3854,0.9792,0.5938,0,288,288,4
+TEP,σ = 0.05,0.4062,1.0,0.5938,4,96,92,4
+TEP,σ = 0.10,0.4375,1.0,0.5625,4,96,92,4
+TEP,σ = 0.20,0.3438,1.0,0.6562,4,96,92,4

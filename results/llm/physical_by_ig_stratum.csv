@@ -1,0 +1,29 @@
+dataset,IG_top1_physical,condition,n,cases,Phys1
+CWRU,IG top-1 not physical,percentages_only,96,8,0.0104
+CWRU,IG top-1 not physical,plain,96,8,0.4583
+CWRU,IG top-1 not physical,random_order_plain,93,8,0.4731
+CWRU,IG top-1 not physical,rank_only,96,8,0.0104
+CWRU,IG top-1 not physical,shuffled_attribution,93,8,0.5591
+CWRU,IG top-1 not physical,xai_grounded,96,8,0.0000
+CWRU,IG top-1 not physical,xai_uncertainty_grounded,96,8,0.0208
+CWRU,IG top-1 physical,percentages_only,12,1,1.0000
+CWRU,IG top-1 physical,plain,12,1,0.3333
+CWRU,IG top-1 physical,random_order_plain,9,1,0.2222
+CWRU,IG top-1 physical,rank_only,12,1,1.0000
+CWRU,IG top-1 physical,shuffled_attribution,12,1,0.0000
+CWRU,IG top-1 physical,xai_grounded,12,1,1.0000
+CWRU,IG top-1 physical,xai_uncertainty_grounded,12,1,1.0000
+TEP,IG top-1 not physical,percentages_only,48,4,0.0000
+TEP,IG top-1 not physical,plain,48,4,0.4583
+TEP,IG top-1 not physical,random_order_plain,48,4,0.6667
+TEP,IG top-1 not physical,rank_only,48,4,0.0417
+TEP,IG top-1 not physical,shuffled_attribution,47,4,0.4043
+TEP,IG top-1 not physical,xai_grounded,48,4,0.0417
+TEP,IG top-1 not physical,xai_uncertainty_grounded,48,4,0.0208
+TEP,IG top-1 physical,percentages_only,36,3,1.0000
+TEP,IG top-1 physical,plain,36,3,1.0000
+TEP,IG top-1 physical,random_order_plain,35,3,0.7143
+TEP,IG top-1 physical,rank_only,36,3,1.0000
+TEP,IG top-1 physical,shuffled_attribution,35,3,0.3429
+TEP,IG top-1 physical,xai_grounded,36,3,1.0000
+TEP,IG top-1 physical,xai_uncertainty_grounded,36,3,1.0000

@@ -1,0 +1,74 @@
+{
+  "n_records": 1296,
+  "by_dataset": {
+    "CWRU": 720,
+    "TEP": 576
+  },
+  "windows": {
+    "CWRU": 10,
+    "TEP": 8
+  },
+  "max_abs_diff_S_ERS_vs_compute_ers": 0.0,
+  "max_abs_diff_S_ERS_vs_stored_runtime_ers_column": 0.09213056126422914,
+  "exact_weights": {
+    "conf": 0.4705882352941177,
+    "stab": 0.29411764705882354,
+    "agree": 0.23529411764705885,
+    "xai_only_stab": 0.5555555555555556,
+    "xai_only_agree": 0.4444444444444445
+  },
+  "answered_rows": {
+    "CWRU": 668,
+    "TEP": 564
+  },
+  "abstained_rows": {
+    "CWRU": 52,
+    "TEP": 12
+  },
+  "score_summary": {
+    "CWRU|S_conf|mean": 0.8901569326718648,
+    "CWRU|S_conf|std": 0.2191109866591497,
+    "CWRU|S_conf|min": 0.2720862627029419,
+    "CWRU|S_conf|max": 1.0,
+    "CWRU|S_ERS|mean": 0.9381784258325115,
+    "CWRU|S_ERS|std": 0.10443700409485498,
+    "CWRU|S_ERS|min": 0.6574523589190313,
+    "CWRU|S_ERS|max": 1.0,
+    "CWRU|S_XAI|mean": 0.9808641975308642,
+    "CWRU|S_XAI|std": 0.047604000504029825,
+    "CWRU|S_XAI|min": 0.8518518518518517,
+    "CWRU|S_XAI|max": 1.0,
+    "CWRU|xai_stability|mean": 0.9966666666666667,
+    "CWRU|xai_stability|std": 0.014539763711628404,
+    "CWRU|xai_stability|min": 0.9333333333333333,
+    "CWRU|xai_stability|max": 1.0,
+    "CWRU|xai_agreement|mean": 0.9611111111111111,
+    "CWRU|xai_agreement|std": 0.10708194543512135,
+    "CWRU|xai_agreement|min": 0.6666666666666666,
+    "CWRU|xai_agreement|max": 1.0,
+    "TEP|S_conf|mean": 0.9658969442049662,
+    "TEP|S_conf|std": 0.10270115490066481,
+    "TEP|S_conf|min": 0.5071851015090942,
+    "TEP|S_conf|max": 1.0,
+    "TEP|S_ERS|mean": 0.9474806931118037,
+    "TEP|S_ERS|std": 0.05021510538839319,
+    "TEP|S_ERS|min": 0.7243021718041198,
+    "TEP|S_ERS|max": 0.9757647149660775,
+    "TEP|S_XAI|mean": 0.931110692140104,
+    "TEP|S_XAI|std": 0.01390600010997139,
+    "TEP|S_XAI|min": 0.9038880509468744,
+    "TEP|S_XAI|max": 0.9554214848332496,
+    "TEP|xai_stability|mean": 0.9851244343891403,
+    "TEP|xai_stability|std": 0.0039330280467402235,
+    "TEP|xai_stability|min": 0.9757164404223229,
+    "TEP|xai_stability|max": 0.9906485671191554,
+    "TEP|xai_agreement|mean": 0.8635935143288084,
+    "TEP|xai_agreement|std": 0.03159508775045877,
+    "TEP|xai_agreement|min": 0.8092006033182504,
+    "TEP|xai_agreement|max": 0.9162895927601811
+  },
+  "corr_conf_ERS": {
+    "CWRU": 0.9705909753380165,
+    "TEP": 0.9895658281620905
+  }
+}

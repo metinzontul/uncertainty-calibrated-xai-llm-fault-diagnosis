@@ -1,0 +1,18 @@
+{
+  "CWRU": {
+    "windows": 10,
+    "xai_gt_plain": 9,
+    "equal": 1,
+    "xai_lt_plain": 0,
+    "sign_test_p": 0.00390625,
+    "wilcoxon_p": 0.00390625
+  },
+  "TEP": {
+    "windows": 8,
+    "xai_gt_plain": 7,
+    "equal": 1,
+    "xai_lt_plain": 0,
+    "sign_test_p": 0.015625,
+    "wilcoxon_p": 0.015625
+  }
+}

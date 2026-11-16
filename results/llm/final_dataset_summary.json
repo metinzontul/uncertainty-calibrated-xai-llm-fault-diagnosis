@@ -1,0 +1,57 @@
+{
+  "records": 1296,
+  "unique_records": 1296,
+  "final_status": {
+    "response": 1232,
+    "abstained": 64
+  },
+  "per_model_status": {
+    "DeepSeek-V4.1-Flash-1017": {
+      "abstained": 16,
+      "response": 308
+    },
+    "GLM-5.3-Flash": {
+      "abstained": 16,
+      "response": 308
+    },
+    "GPT-5 Mini": {
+      "abstained": 16,
+      "response": 308
+    },
+    "Qwen3.5-9B": {
+      "abstained": 16,
+      "response": 308
+    }
+  },
+  "per_batch": {
+    "replacement_model_2026-10": 616,
+    "original_2026-09": 256,
+    "cwru_clean_rerun_2026-10": 162,
+    "retry_2026-10": 127,
+    "qwen_fix_2026-10": 103,
+    "replacement_model_2026-10 (abstention, no call)": 32
+  },
+  "abstentions_equal_to_published": true,
+  "retained_original_responses_unchanged": true,
+  "truncated_finish_length": {
+    "DeepSeek-V4.1-Flash-1017": 0,
+    "GLM-5.3-Flash": 0,
+    "GPT-5 Mini": 0,
+    "Qwen3.5-9B": 0
+  },
+  "served_models": {
+    "DeepSeek-V4.1-Flash-1017": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+    ],
+    "GLM-5.3-Flash": [
+      "zai-org/GLM-5.3-Flash"
+    ],
+    "GPT-5 Mini": [
+      "gpt-5-mini-2025-08-07"
+    ],
+    "Qwen3.5-9B": [
+      "Qwen/Qwen3.5-9B"
+    ]
+  },
+  "retained_original_count": 256
+}

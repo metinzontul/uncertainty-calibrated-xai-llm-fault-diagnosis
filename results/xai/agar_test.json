@@ -1,0 +1,88 @@
+{
+  "TEP": {
+    "n_windows": 1500,
+    "n_abstained": 103,
+    "abstained_baseline_accuracy": 0.2912621359223301,
+    "fractions": {
+      "0.02": {
+        "attribution": {
+          "repair_rate": 0.8737864077669902,
+          "precision": 0.05555555555555555,
+          "n_repaired": 90
+        },
+        "random": {
+          "repair_rate": 0.7427184466019418,
+          "precision": 0.16209150326797386,
+          "n_repaired": 76.5
+        }
+      },
+      "0.05": {
+        "attribution": {
+          "repair_rate": 0.9611650485436893,
+          "precision": 0.050505050505050504,
+          "n_repaired": 99
+        },
+        "random": {
+          "repair_rate": 0.8436893203883498,
+          "precision": 0.06674338319907938,
+          "n_repaired": 86.90000000000002
+        }
+      },
+      "0.10": {
+        "attribution": {
+          "repair_rate": 1.0,
+          "precision": 0.04854368932038835,
+          "n_repaired": 103
+        },
+        "random": {
+          "repair_rate": 0.9165048543689323,
+          "precision": 0.04872881355932203,
+          "n_repaired": 94.40000000000002
+        }
+      }
+    }
+  },
+  "CWRU": {
+    "n_windows": 1500,
+    "n_abstained": 0,
+    "abstained_baseline_accuracy": NaN,
+    "fractions": {
+      "0.02": {
+        "attribution": {
+          "repair_rate": NaN,
+          "precision": NaN,
+          "n_repaired": 0
+        },
+        "random": {
+          "repair_rate": NaN,
+          "precision": NaN,
+          "n_repaired": 0.0
+        }
+      },
+      "0.05": {
+        "attribution": {
+          "repair_rate": NaN,
+          "precision": NaN,
+          "n_repaired": 0
+        },
+        "random": {
+          "repair_rate": NaN,
+          "precision": NaN,
+          "n_repaired": 0.0
+        }
+      },
+      "0.10": {
+        "attribution": {
+          "repair_rate": NaN,
+          "precision": NaN,
+          "n_repaired": 0
+        },
+        "random": {
+          "repair_rate": NaN,
+          "precision": NaN,
+          "n_repaired": 0.0
+        }
+      }
+    }
+  }
+}

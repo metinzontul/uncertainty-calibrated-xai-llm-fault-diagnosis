@@ -1,0 +1,27 @@
+{
+  "masks_equal_saved": true,
+  "n_calibration_valid": 3000,
+  "n_evaluation_valid": 3000,
+  "calibration_evaluation_rows_disjoint": true,
+  "T_exact_float64_minimiser": 1.6509631115792949,
+  "nll_at_T_lbfgs": 0.07905817823949275,
+  "nll_at_exact_T": 0.07905813600059243,
+  "nll_at_1.6494": 0.07905819861220549,
+  "nll_at_1.6497": 0.07905817688067618,
+  "evaluation_labels_match_rebuilt_windows": true,
+  "T": 1.649679183959961,
+  "accuracy": 0.971,
+  "accuracy_calibrated": 0.971,
+  "ece_uncalibrated": 0.018085685890136944,
+  "ece_calibrated": 0.013296406547137629,
+  "bin_sum_reproduces_ece_uncal": 1.0,
+  "bin_sum_reproduces_ece_cal": 1.0,
+  "bin_counts_sum_uncal": 3000,
+  "bin_counts_sum_cal": 3000,
+  "targets_4dp": {
+    "T": true,
+    "accuracy": true,
+    "ece_uncal": true,
+    "ece_cal": true
+  }
+}

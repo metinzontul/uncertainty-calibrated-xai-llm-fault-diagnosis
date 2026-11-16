@@ -1,0 +1,9 @@
+dataset,contrast,metric,diff,ci_low,ci_high
+CWRU,random_order_plain - plain,EA@1 vs true IG,-0.1850,-0.2821,-0.0894
+CWRU,shuffled_attribution - xai_grounded,EA@1 vs true IG,-1.0000,-1.0000,-1.0000
+CWRU,shuffled_attribution - plain,EA@1 vs true IG,-0.3000,-0.5000,-0.1167
+CWRU,shuffled_attribution - xai_grounded,EA@1 vs supplied,-0.0171,-0.0427,0.0000
+TEP,random_order_plain - plain,EA@1 vs true IG,-0.3644,-0.6036,-0.1667
+TEP,shuffled_attribution - xai_grounded,EA@1 vs true IG,-0.9792,-1.0000,-0.9375
+TEP,shuffled_attribution - plain,EA@1 vs true IG,-0.3854,-0.6250,-0.1771
+TEP,shuffled_attribution - xai_grounded,EA@1 vs supplied,0.0102,-0.0323,0.0625

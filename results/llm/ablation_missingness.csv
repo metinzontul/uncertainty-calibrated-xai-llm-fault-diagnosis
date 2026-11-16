@@ -1,0 +1,33 @@
+dataset,condition,model_name,source,rows,errors
+CWRU,percentages_only,DeepSeek-V4.1-Flash-1017,new ablation run (2026-10),30,0
+CWRU,percentages_only,GLM-5.3-Flash,new ablation run (2026-10),30,0
+CWRU,percentages_only,GPT-5 Mini,new ablation run (2026-10),30,0
+CWRU,percentages_only,Qwen3.5-9B,new ablation run (2026-10),29,0
+CWRU,plain,DeepSeek-V4.1-Flash-1017,final dataset (2026-10),30,0
+CWRU,plain,GLM-5.3-Flash,final dataset (2026-10),30,0
+CWRU,plain,GPT-5 Mini,final dataset (2026-10),30,0
+CWRU,plain,Qwen3.5-9B,final dataset (2026-10),30,0
+CWRU,rank_only,DeepSeek-V4.1-Flash-1017,new ablation run (2026-10),30,0
+CWRU,rank_only,GLM-5.3-Flash,new ablation run (2026-10),30,0
+CWRU,rank_only,GPT-5 Mini,new ablation run (2026-10),30,0
+CWRU,rank_only,Qwen3.5-9B,new ablation run (2026-10),29,0
+CWRU,xai_grounded,DeepSeek-V4.1-Flash-1017,final dataset (2026-10),30,0
+CWRU,xai_grounded,GLM-5.3-Flash,final dataset (2026-10),30,0
+CWRU,xai_grounded,GPT-5 Mini,final dataset (2026-10),30,0
+CWRU,xai_grounded,Qwen3.5-9B,final dataset (2026-10),30,0
+TEP,percentages_only,DeepSeek-V4.1-Flash-1017,new ablation run (2026-10),24,0
+TEP,percentages_only,GLM-5.3-Flash,new ablation run (2026-10),24,0
+TEP,percentages_only,GPT-5 Mini,new ablation run (2026-10),24,0
+TEP,percentages_only,Qwen3.5-9B,new ablation run (2026-10),24,0
+TEP,plain,DeepSeek-V4.1-Flash-1017,final dataset (2026-10),24,0
+TEP,plain,GLM-5.3-Flash,final dataset (2026-10),24,0
+TEP,plain,GPT-5 Mini,final dataset (2026-10),24,0
+TEP,plain,Qwen3.5-9B,final dataset (2026-10),24,0
+TEP,rank_only,DeepSeek-V4.1-Flash-1017,new ablation run (2026-10),24,0
+TEP,rank_only,GLM-5.3-Flash,new ablation run (2026-10),24,0
+TEP,rank_only,GPT-5 Mini,new ablation run (2026-10),24,0
+TEP,rank_only,Qwen3.5-9B,new ablation run (2026-10),24,0
+TEP,xai_grounded,DeepSeek-V4.1-Flash-1017,final dataset (2026-10),24,0
+TEP,xai_grounded,GLM-5.3-Flash,final dataset (2026-10),24,0
+TEP,xai_grounded,GPT-5 Mini,final dataset (2026-10),24,0
+TEP,xai_grounded,Qwen3.5-9B,final dataset (2026-10),24,0

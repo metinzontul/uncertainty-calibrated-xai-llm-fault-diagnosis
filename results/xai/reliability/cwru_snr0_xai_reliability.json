@@ -1,0 +1,42 @@
+{
+  "cwru_class0_win358": {
+    "xai_stability": 1.0,
+    "xai_agreement": 1.0
+  },
+  "cwru_class1_win726": {
+    "xai_stability": 1.0,
+    "xai_agreement": 1.0
+  },
+  "cwru_class2_win1014": {
+    "xai_stability": 1.0,
+    "xai_agreement": 1.0
+  },
+  "cwru_class3_win1271": {
+    "xai_stability": 1.0,
+    "xai_agreement": 1.0
+  },
+  "cwru_class4_win1525": {
+    "xai_stability": 1.0,
+    "xai_agreement": 1.0
+  },
+  "cwru_class5_win1880": {
+    "xai_stability": 1.0,
+    "xai_agreement": 1.0
+  },
+  "cwru_class6_win2089": {
+    "xai_stability": 1.0,
+    "xai_agreement": 1.0
+  },
+  "cwru_class7_win2363": {
+    "xai_stability": 1.0,
+    "xai_agreement": 0.6666666666666666
+  },
+  "cwru_class8_win2660": {
+    "xai_stability": 1.0,
+    "xai_agreement": 1.0
+  },
+  "cwru_class9_win2916": {
+    "xai_stability": 1.0,
+    "xai_agreement": 1.0
+  }
+}

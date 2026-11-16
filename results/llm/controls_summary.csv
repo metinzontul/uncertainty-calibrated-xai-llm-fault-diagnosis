@@ -1,0 +1,9 @@
+dataset,condition,n,EA1_true_IG,EA1_supplied,RankCorr_true_IG,RankCorr_supplied
+CWRU,plain,120,0.3000,0.3000,-0.0167,-0.0167
+CWRU,random_order_plain,113,0.1150,0.4867,-0.2242,0.3481
+CWRU,xai_grounded,120,1.0000,1.0000,0.9944,0.9944
+CWRU,shuffled_attribution,117,0.0000,0.9829,-0.3333,0.9829
+TEP,plain,96,0.3854,0.3854,0.3299,0.3299
+TEP,random_order_plain,95,0.0211,0.4421,-0.1516,0.3544
+TEP,xai_grounded,96,0.9792,0.9792,0.9486,0.9486
+TEP,shuffled_attribution,94,0.0000,0.9894,-0.1695,0.9532

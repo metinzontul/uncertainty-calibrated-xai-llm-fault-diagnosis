@@ -1,0 +1,466 @@
+[
+  {
+    "case_id": "fault4_at500_noise",
+    "scenario": "Step change (reactor cooling)",
+    "true_fault": 4,
+    "predicted_fault": 4,
+    "calibrated_confidence": 0.9986691474914551,
+    "raw_confidence": 0.9998993873596191,
+    "temperature": 1.3901124000549316,
+    "top_evidence": [
+      {
+        "sensor": "xmeas_9",
+        "attribution": 0.3617033362388611,
+        "mean": -1.0049627429480834,
+        "std": 0.005972855711004135,
+        "delta": -0.006385558790270807,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmeas_21",
+        "attribution": 0.2856255769729614,
+        "mean": -0.5410677184843846,
+        "std": 0.07754263570374637,
+        "delta": 0.16508243331451244,
+        "trend": "rising"
+      },
+      {
+        "sensor": "xmv_1",
+        "attribution": 0.03863399848341942,
+        "mean": -0.37452611925976664,
+        "std": 0.15969248671393013,
+        "delta": -0.37827029500913645,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmeas_20",
+        "attribution": 0.02635895647108555,
+        "mean": 0.33840609826918217,
+        "std": 0.18989644016750323,
+        "delta": 0.304356724639557,
+        "trend": "rising"
+      },
+      {
+        "sensor": "xmv_10",
+        "attribution": 0.026256002485752106,
+        "mean": 0.3033061638356361,
+        "std": 0.05355203668689,
+        "delta": -0.07656293775161205,
+        "trend": "falling"
+      }
+    ],
+    "degradation": "noise",
+    "degradation_level": 0.05,
+    "xai_stability": null,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 500,
+    "is_correct": true
+  },
+  {
+    "case_id": "fault2_at100_noise",
+    "scenario": "Composition step",
+    "true_fault": 2,
+    "predicted_fault": 9,
+    "calibrated_confidence": 0.6818890571594238,
+    "raw_confidence": 0.7540134787559509,
+    "temperature": 1.3901124000549316,
+    "top_evidence": [
+      {
+        "sensor": "xmeas_9",
+        "attribution": 0.22634030878543854,
+        "mean": -1.0043216246467952,
+        "std": 0.00563853404218363,
+        "delta": 0.00710886916507758,
+        "trend": "rising"
+      },
+      {
+        "sensor": "xmeas_21",
+        "attribution": 0.17113402485847473,
+        "mean": -0.5146505551753522,
+        "std": 0.08883090874359272,
+        "delta": -0.13098418840224002,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmv_9",
+        "attribution": 0.057772066444158554,
+        "mean": -0.2667164580365707,
+        "std": 0.12994162000249782,
+        "delta": -0.3267794301963685,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmeas_5",
+        "attribution": 0.03508570045232773,
+        "mean": -0.853448500449111,
+        "std": 0.5008494536688975,
+        "delta": -0.04786633714638899,
+        "trend": "stable"
+      },
+      {
+        "sensor": "xmeas_22",
+        "attribution": 0.03454754874110222,
+        "mean": -0.4985358026972557,
+        "std": 0.11469957775713596,
+        "delta": -0.0042778696254086035,
+        "trend": "stable"
+      }
+    ],
+    "degradation": "noise",
+    "degradation_level": 0.05,
+    "xai_stability": null,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 100,
+    "is_correct": false
+  },
+  {
+    "case_id": "fault14_at300_noise",
+    "scenario": "Valve sticking (complex)",
+    "true_fault": 14,
+    "predicted_fault": 14,
+    "calibrated_confidence": 0.9999997615814209,
+    "raw_confidence": 1.0,
+    "temperature": 1.3901124000549316,
+    "top_evidence": [
+      {
+        "sensor": "xmeas_9",
+        "attribution": 0.3533409535884857,
+        "mean": -1.0068765586854964,
+        "std": 0.0851389301947908,
+        "delta": 0.11564795947693174,
+        "trend": "rising"
+      },
+      {
+        "sensor": "xmeas_21",
+        "attribution": 0.27326974272727966,
+        "mean": -0.5830559808741013,
+        "std": 0.8089448904303708,
+        "delta": -1.0508095595203053,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmv_10",
+        "attribution": 0.058273568749427795,
+        "mean": -0.05955614855041494,
+        "std": 0.7740907637266231,
+        "delta": 1.0104036272249526,
+        "trend": "rising"
+      },
+      {
+        "sensor": "xmeas_18",
+        "attribution": 0.030428556725382805,
+        "mean": 0.367509580012285,
+        "std": 0.18952485749296352,
+        "delta": -0.5482975768966645,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmv_9",
+        "attribution": 0.019376594573259354,
+        "mean": -0.08827942679315402,
+        "std": 0.15146282388703883,
+        "delta": -0.31672574661844294,
+        "trend": "falling"
+      }
+    ],
+    "degradation": "noise",
+    "degradation_level": 0.05,
+    "xai_stability": null,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 300,
+    "is_correct": true
+  },
+  {
+    "case_id": "fault1_at600_noise",
+    "scenario": "Feed ratio step",
+    "true_fault": 1,
+    "predicted_fault": 1,
+    "calibrated_confidence": 1.0,
+    "raw_confidence": 1.0,
+    "temperature": 1.3901124000549316,
+    "top_evidence": [
+      {
+        "sensor": "xmeas_9",
+        "attribution": 0.24759460985660553,
+        "mean": -1.0049825947702686,
+        "std": 0.005814006226647391,
+        "delta": -0.00252470093135293,
+        "trend": "stable"
+      },
+      {
+        "sensor": "xmeas_1",
+        "attribution": 0.16946366429328918,
+        "mean": 3.2386759496502004,
+        "std": 0.21789880800439976,
+        "delta": 0.036665581219139654,
+        "trend": "stable"
+      },
+      {
+        "sensor": "xmeas_21",
+        "attribution": 0.15532532334327698,
+        "mean": -0.5227832138139387,
+        "std": 0.09092751547715987,
+        "delta": 0.18976342316813094,
+        "trend": "rising"
+      },
+      {
+        "sensor": "xmeas_4",
+        "attribution": 0.053960349410772324,
+        "mean": -1.4948150817287398,
+        "std": 0.31055034578090124,
+        "delta": -0.3928343360684452,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmv_3",
+        "attribution": 0.044107966125011444,
+        "mean": 2.0906324858206444,
+        "std": 0.15614054591343834,
+        "delta": 0.022529459825944897,
+        "trend": "stable"
+      }
+    ],
+    "degradation": "noise",
+    "degradation_level": 0.05,
+    "xai_stability": null,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 600,
+    "is_correct": true
+  },
+  {
+    "case_id": "fault10_at800_noise",
+    "scenario": "Random variation",
+    "true_fault": 10,
+    "predicted_fault": 10,
+    "calibrated_confidence": 0.9999805688858032,
+    "raw_confidence": 0.9999998807907104,
+    "temperature": 1.3901124000549316,
+    "top_evidence": [
+      {
+        "sensor": "xmeas_9",
+        "attribution": 0.36714261770248413,
+        "mean": -1.0041089207393032,
+        "std": 0.007038405676416457,
+        "delta": -0.0036090959046888305,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmeas_21",
+        "attribution": 0.20878291130065918,
+        "mean": -0.5596523354620063,
+        "std": 0.10785893978727591,
+        "delta": 0.029032169788330786,
+        "trend": "stable"
+      },
+      {
+        "sensor": "xmeas_19",
+        "attribution": 0.06317592412233353,
+        "mean": -0.5286745191311921,
+        "std": 0.19087474402810778,
+        "delta": -0.39056171422905767,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmeas_18",
+        "attribution": 0.04079178348183632,
+        "mean": -0.21547699731238035,
+        "std": 0.4497332237857438,
+        "delta": 0.14427660445697288,
+        "trend": "stable"
+      },
+      {
+        "sensor": "xmv_1",
+        "attribution": 0.027615442872047424,
+        "mean": -0.25872117665358924,
+        "std": 0.20729873363680362,
+        "delta": 0.014147965083607189,
+        "trend": "stable"
+      }
+    ],
+    "degradation": "noise",
+    "degradation_level": 0.05,
+    "xai_stability": null,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 800,
+    "is_correct": true
+  },
+  {
+    "case_id": "fault6_at400_noise",
+    "scenario": "Feed loss",
+    "true_fault": 6,
+    "predicted_fault": 6,
+    "calibrated_confidence": 1.0,
+    "raw_confidence": 1.0,
+    "temperature": 1.3901124000549316,
+    "top_evidence": [
+      {
+        "sensor": "xmv_10",
+        "attribution": 0.16121697425842285,
+        "mean": 5.72829838068409,
+        "std": 0.000490996153697389,
+        "delta": 0.000977448770096423,
+        "trend": "rising"
+      },
+      {
+        "sensor": "xmeas_9",
+        "attribution": 0.08560273796319962,
+        "mean": -1.0014445906844274,
+        "std": 0.0,
+        "delta": 0.0,
+        "trend": "stable"
+      },
+      {
+        "sensor": "xmeas_25",
+        "attribution": 0.06693554669618607,
+        "mean": 4.089493036556832,
+        "std": 0.12795909025123728,
+        "delta": 0.15074262992018816,
+        "trend": "rising"
+      },
+      {
+        "sensor": "xmeas_19",
+        "attribution": 0.05075506493449211,
+        "mean": 3.0679754665121792,
+        "std": 4.440892098500626e-16,
+        "delta": 0.0,
+        "trend": "stable"
+      },
+      {
+        "sensor": "xmeas_22",
+        "attribution": 0.04741619527339935,
+        "mean": -2.6300395200816578,
+        "std": 4.440892098500626e-16,
+        "delta": 0.0,
+        "trend": "stable"
+      }
+    ],
+    "degradation": "noise",
+    "degradation_level": 0.05,
+    "xai_stability": null,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 400,
+    "is_correct": true
+  },
+  {
+    "case_id": "fault13_at200_noise",
+    "scenario": "Slow kinetics drift",
+    "true_fault": 13,
+    "predicted_fault": 13,
+    "calibrated_confidence": 1.0,
+    "raw_confidence": 1.0,
+    "temperature": 1.3901124000549316,
+    "top_evidence": [
+      {
+        "sensor": "xmeas_9",
+        "attribution": 0.2546195089817047,
+        "mean": -1.0045411844576138,
+        "std": 0.006477204786617584,
+        "delta": -0.006268235360506358,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmeas_21",
+        "attribution": 0.15431033074855804,
+        "mean": -0.49974905312529394,
+        "std": 0.06809602610308184,
+        "delta": 0.09781021188291966,
+        "trend": "rising"
+      },
+      {
+        "sensor": "xmv_9",
+        "attribution": 0.048072416335344315,
+        "mean": -0.40906001197823705,
+        "std": 0.23003428654313074,
+        "delta": -0.7058449670833465,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmeas_18",
+        "attribution": 0.04000338539481163,
+        "mean": -0.04100360191077992,
+        "std": 0.30553192284246344,
+        "delta": -0.9914875108294358,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmeas_19",
+        "attribution": 0.03675027936697006,
+        "mean": -0.447250729153223,
+        "std": 0.2412760299651339,
+        "delta": -0.7805148565300769,
+        "trend": "falling"
+      }
+    ],
+    "degradation": "noise",
+    "degradation_level": 0.05,
+    "xai_stability": null,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 200,
+    "is_correct": true
+  },
+  {
+    "case_id": "fault12_at700_noise",
+    "scenario": "Condenser cooling variation",
+    "true_fault": 12,
+    "predicted_fault": 12,
+    "calibrated_confidence": 1.0,
+    "raw_confidence": 1.0,
+    "temperature": 1.3901124000549316,
+    "top_evidence": [
+      {
+        "sensor": "xmeas_9",
+        "attribution": 0.2307729870080948,
+        "mean": -1.0044738161241644,
+        "std": 0.011658923347519543,
+        "delta": -0.026695343516437875,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmeas_21",
+        "attribution": 0.15116001665592194,
+        "mean": -0.4430442058604162,
+        "std": 0.4149780562181374,
+        "delta": 0.622331558949947,
+        "trend": "rising"
+      },
+      {
+        "sensor": "xmeas_20",
+        "attribution": 0.05071862414479256,
+        "mean": -0.010654434337543215,
+        "std": 1.2787610760645132,
+        "delta": -1.984868404992735,
+        "trend": "falling"
+      },
+      {
+        "sensor": "xmeas_11",
+        "attribution": 0.04209935665130615,
+        "mean": 0.2729352683553564,
+        "std": 0.8129597321900577,
+        "delta": 0.26697409431849095,
+        "trend": "stable"
+      },
+      {
+        "sensor": "xmeas_22",
+        "attribution": 0.03752421215176582,
+        "mean": -0.5196247242594304,
+        "std": 0.7670966489736325,
+        "delta": -1.5851248016487551,
+        "trend": "falling"
+      }
+    ],
+    "degradation": "noise",
+    "degradation_level": 0.05,
+    "xai_stability": null,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 700,
+    "is_correct": true
+  }
+]

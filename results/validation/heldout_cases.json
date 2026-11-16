@@ -1,0 +1,568 @@
+{
+  "cases": [
+    {
+      "case_id": "new_tep_fault1_run6_s791",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.9817,
+      "agr": 0.8643,
+      "ERS": 0.9627,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault2_run7_s292",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.986,
+      "agr": 0.8839,
+      "ERS": 0.9685,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault3_run8_s179",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 0.5104,
+      "stab": 0.9917,
+      "agr": 0.8582,
+      "ERS": 0.7338,
+      "abstain_runtime": 1
+    },
+    {
+      "case_id": "new_tep_fault4_run9_s634",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 0.9997,
+      "stab": 0.9828,
+      "agr": 0.9186,
+      "ERS": 0.9756,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault5_run10_s430",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.9843,
+      "agr": 0.8356,
+      "ERS": 0.9567,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault6_run11_s506",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.9894,
+      "agr": 0.81,
+      "ERS": 0.9522,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault7_run12_s219",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.973,
+      "agr": 0.8522,
+      "ERS": 0.9573,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault8_run13_s434",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.9882,
+      "agr": 0.9178,
+      "ERS": 0.9772,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault9_run14_s636",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 0.9863,
+      "stab": 0.9765,
+      "agr": 0.8303,
+      "ERS": 0.9467,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault10_run15_s422",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.9846,
+      "agr": 0.8665,
+      "ERS": 0.9641,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault11_run6_s775",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 0.9998,
+      "stab": 0.9852,
+      "agr": 0.9035,
+      "ERS": 0.9729,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault12_run7_s745",
+      "dataset": "TEP",
+      "correct": 0,
+      "conf": 1.0,
+      "stab": 0.9888,
+      "agr": 0.8771,
+      "ERS": 0.9678,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault13_run8_s681",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.9833,
+      "agr": 0.8959,
+      "ERS": 0.9706,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault14_run9_s830",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.9878,
+      "agr": 0.8537,
+      "ERS": 0.962,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault15_run10_s694",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 0.9715,
+      "stab": 0.9863,
+      "agr": 0.8756,
+      "ERS": 0.9533,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault16_run11_s291",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.9848,
+      "agr": 0.8816,
+      "ERS": 0.9677,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault17_run12_s796",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.9721,
+      "agr": 0.8348,
+      "ERS": 0.9529,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault18_run13_s643",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.9906,
+      "agr": 0.8899,
+      "ERS": 0.9713,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault19_run14_s232",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.9878,
+      "agr": 0.8333,
+      "ERS": 0.9572,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_tep_fault20_run15_s381",
+      "dataset": "TEP",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.9814,
+      "agr": 0.8122,
+      "ERS": 0.9504,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class0_1hp_file98_s411342",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class1_1hp_file106_s21645",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class2_1hp_file170_s3191",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class3_1hp_file210_s77130",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 0.0,
+      "ERS": 0.7647,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class4_1hp_file119_s43998",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class5_1hp_file186_s56592",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class6_1hp_file223_s9633",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class7_1hp_file131_s44979",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class8_1hp_file198_s77930",
+      "dataset": "CWRU",
+      "correct": 0,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class9_1hp_file235_s42933",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class0_2hp_file99_s401302",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class1_2hp_file107_s95742",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class2_2hp_file171_s85111",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 0.9949,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 0.9976,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class3_2hp_file211_s109362",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 0.8667,
+      "agr": 1.0,
+      "ERS": 0.9608,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class4_2hp_file120_s86929",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 0.9968,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 0.9985,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class5_2hp_file187_s21454",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class6_2hp_file224_s103970",
+      "dataset": "CWRU",
+      "correct": 0,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class7_2hp_file132_s78586",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class8_2hp_file199_s11897",
+      "dataset": "CWRU",
+      "correct": 0,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    },
+    {
+      "case_id": "new_cwru_class9_2hp_file236_s36171",
+      "dataset": "CWRU",
+      "correct": 1,
+      "conf": 1.0,
+      "stab": 1.0,
+      "agr": 1.0,
+      "ERS": 1.0,
+      "abstain_runtime": 0
+    }
+  ],
+  "case_level_CWRU": {
+    "n": 20,
+    "errors": 3,
+    "abstained_runtime": 0,
+    "errors_not_abstained": 3,
+    "AUROC_correct_conf": 0.4705882352941177,
+    "AUROC_correct_ERS": 0.43137254901960786
+  },
+  "case_level_TEP": {
+    "n": 20,
+    "errors": 1,
+    "abstained_runtime": 1,
+    "errors_not_abstained": 1,
+    "AUROC_correct_conf": 0.2894736842105263,
+    "AUROC_correct_ERS": 0.3157894736842105
+  },
+  "case_level_ALL": {
+    "n": 40,
+    "errors": 4,
+    "abstained_runtime": 1,
+    "errors_not_abstained": 4,
+    "AUROC_correct_conf": 0.40625,
+    "AUROC_correct_ERS": 0.29861111111111116
+  },
+  "CWRU|plain": {
+    "n": 80,
+    "windows": 20,
+    "models": [
+      "deepseek_v41_flash",
+      "glm53_flash",
+      "gpt5_mini",
+      "qwen35_9b"
+    ],
+    "EA1": [
+      0.3125,
+      0.1625,
+      0.4625
+    ],
+    "recall": [
+      0.9541666666666668,
+      0.9166666666666666,
+      0.9833333333333334
+    ],
+    "halluc": 0.0
+  },
+  "CWRU|xai_grounded": {
+    "n": 80,
+    "windows": 20,
+    "models": [
+      "deepseek_v41_flash",
+      "glm53_flash",
+      "gpt5_mini",
+      "qwen35_9b"
+    ],
+    "EA1": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall": [
+      0.9833333333333332,
+      0.9666666666666668,
+      0.9958333333333333
+    ],
+    "halluc": 0.0
+  },
+  "CWRU|xai_uncertainty_grounded": {
+    "n": 80,
+    "windows": 20,
+    "models": [
+      "deepseek_v41_flash",
+      "glm53_flash",
+      "gpt5_mini",
+      "qwen35_9b"
+    ],
+    "EA1": [
+      0.975,
+      0.9375,
+      1.0
+    ],
+    "recall": [
+      0.9625,
+      0.9416666666666667,
+      0.9833333333333332
+    ],
+    "halluc": 0.0
+  },
+  "TEP|plain": {
+    "n": 80,
+    "windows": 20,
+    "models": [
+      "deepseek_v41_flash",
+      "glm53_flash",
+      "gpt5_mini",
+      "qwen35_9b"
+    ],
+    "EA1": [
+      0.425,
+      0.2625,
+      0.5875
+    ],
+    "recall": [
+      0.9166666666666667,
+      0.8791666666666667,
+      0.9541666666666666
+    ],
+    "halluc": 0.0
+  },
+  "TEP|xai_grounded": {
+    "n": 80,
+    "windows": 20,
+    "models": [
+      "deepseek_v41_flash",
+      "glm53_flash",
+      "gpt5_mini",
+      "qwen35_9b"
+    ],
+    "EA1": [
+      0.9875,
+      0.9625,
+      1.0
+    ],
+    "recall": [
+      0.9541666666666668,
+      0.9333333333333332,
+      0.975
+    ],
+    "halluc": 0.0
+  },
+  "TEP|xai_uncertainty_grounded": {
+    "n": 76,
+    "windows": 19,
+    "models": [
+      "deepseek_v41_flash",
+      "glm53_flash",
+      "gpt5_mini",
+      "qwen35_9b"
+    ],
+    "EA1": [
+      0.9868421052631579,
+      0.9605263157894737,
+      1.0
+    ],
+    "recall": [
+      0.9342105263157895,
+      0.9166666666666665,
+      0.9517543859649124
+    ],
+    "halluc": 0.0
+  },
+  "CWRU|delta_xai_minus_plain": [
+    0.6875,
+    0.5375,
+    0.8375
+  ],
+  "CWRU|r_EA1_conf": -0.03658918120134468,
+  "CWRU|r_EA1_ERS": -0.030412924279079677,
+  "TEP|delta_xai_minus_plain": [
+    0.5625,
+    0.4,
+    0.725
+  ],
+  "TEP|r_EA1_conf": -0.02172771769291267,
+  "TEP|r_EA1_ERS": 0.00575981177665262
+}

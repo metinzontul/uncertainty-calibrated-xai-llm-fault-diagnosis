@@ -1,0 +1,5 @@
+variant,TEP correctness,TEP adherence,CWRU correctness,CWRU adherence
+Full ERS,0.8742,-0.079,0.7192,0.0587
+− Confidence,0.2254,0.0161,0.0665,-0.1031
+− XAI Stability,0.8707,-0.0797,0.7187,0.056
+− XAI Agreement,0.877,-0.0846,0.7121,0.0919

@@ -1,0 +1,27 @@
+{
+  "fold1": {
+    "val_windows": 1454,
+    "sharing_samples_with_train": 70,
+    "fraction": 0.048143053645116916
+  },
+  "fold2": {
+    "val_windows": 1450,
+    "sharing_samples_with_train": 70,
+    "fraction": 0.04827586206896552
+  },
+  "fold3": {
+    "val_windows": 1453,
+    "sharing_samples_with_train": 70,
+    "fraction": 0.04817618719889883
+  },
+  "fold4": {
+    "val_windows": 1453,
+    "sharing_samples_with_train": 70,
+    "fraction": 0.04817618719889883
+  },
+  "fold5": {
+    "val_windows": 1456,
+    "sharing_samples_with_train": 70,
+    "fraction": 0.04807692307692308
+  }
+}

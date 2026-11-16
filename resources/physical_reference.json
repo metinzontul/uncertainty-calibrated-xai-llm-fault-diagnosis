@@ -1,0 +1,17 @@
+{
+  "_note": "IG-independent physical reference sets: the sensors located at / directly downstream of the physical origin of each fault. TEP sets are derived from the flowsheet location of each disturbance as defined by Downs & Vogel (1993) and the TEP variable list; CWRU from the test-rig geometry (faults seeded in the drive-end bearing; DE accelerometer mounted closest to it). Variable lists were compiled for this revision and MUST be confirmed by a process/vibration expert before publication.",
+  "TEP": {
+    "1":  {"fault": "A/C feed ratio, B composition constant (step), stream 4", "sensors": ["xmeas_1", "xmeas_4", "xmv_3", "xmv_4"], "rationale": "A feed (stream 1) and A+C feed (stream 4) flows and their valves compensate the ratio change"},
+    "2":  {"fault": "B composition, A/C ratio constant (step), stream 4", "sensors": ["xmeas_10", "xmv_6", "xmeas_30"], "rationale": "inert B accumulates; purge rate, purge valve and B in purge respond"},
+    "4":  {"fault": "Reactor cooling water inlet temperature (step)", "sensors": ["xmeas_9", "xmeas_21", "xmv_10"], "rationale": "reactor temperature, reactor cooling-water outlet temperature and cooling-water flow valve"},
+    "6":  {"fault": "A feed loss (step), stream 1", "sensors": ["xmeas_1", "xmv_3", "xmeas_7"], "rationale": "A feed flow drops, A feed valve saturates, reactor pressure rises"},
+    "10": {"fault": "C feed temperature (random variation), stream 4", "sensors": ["xmeas_18", "xmeas_19", "xmv_9"], "rationale": "stream 4 enters the stripper: stripper temperature, steam flow and steam valve"},
+    "12": {"fault": "Condenser cooling water inlet temperature (random variation)", "sensors": ["xmeas_11", "xmeas_22", "xmv_11"], "rationale": "separator temperature, separator cooling-water outlet temperature, condenser cooling-water flow"},
+    "13": {"fault": "Reaction kinetics (slow drift)", "sensors": ["xmeas_7", "xmeas_9", "xmeas_21", "xmv_10"], "rationale": "reactor pressure and temperature drift with the reactor cooling loop"},
+    "14": {"fault": "Reactor cooling water valve (sticking)", "sensors": ["xmv_10", "xmeas_9", "xmeas_21"], "rationale": "sticking valve, reactor temperature and cooling-water outlet temperature"}
+  },
+  "CWRU": {
+    "fault_classes": {"sensors": ["DE"], "rationale": "all seeded faults (inner race, ball, outer race) are in the drive-end bearing; DE is the accelerometer closest to it"},
+    "normal_class": {"sensors": [], "rationale": "no fault origin; excluded from physical-correctness metrics (also: BA channel zero-filled in the Normal record)"}
+  }
+}

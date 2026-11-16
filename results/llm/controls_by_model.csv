@@ -1,0 +1,11 @@
+,,EA1_true,EA1_true,EA1_true,EA1_true,EA1_supplied,EA1_supplied,EA1_supplied,EA1_supplied
+condition,,plain,random_order_plain,shuffled_attribution,xai_grounded,plain,random_order_plain,shuffled_attribution,xai_grounded
+dataset,model_name,,,,,,,,
+CWRU,DeepSeek-V4.1-Flash-1017,0.2333,0.1333,0.0000,1.0000,0.2333,0.5667,1.0000,1.0000
+CWRU,GLM-5.3-Flash,0.3333,0.1333,0.0000,1.0000,0.3333,0.4667,0.9667,1.0000
+CWRU,GPT-5 Mini,0.3333,0.1333,0.0000,1.0000,0.3333,0.4000,1.0000,1.0000
+CWRU,Qwen3.5-9B,0.3000,0.0435,0.0000,1.0000,0.3000,0.5217,0.9630,1.0000
+TEP,DeepSeek-V4.1-Flash-1017,0.4167,0.0000,0.0000,1.0000,0.4167,0.7083,1.0000,1.0000
+TEP,GLM-5.3-Flash,0.3333,0.0417,0.0000,0.9583,0.3333,0.2917,1.0000,0.9583
+TEP,GPT-5 Mini,0.3333,0.0417,0.0000,0.9583,0.3333,0.3333,1.0000,0.9583
+TEP,Qwen3.5-9B,0.4583,0.0000,0.0000,1.0000,0.4583,0.4348,0.9545,1.0000

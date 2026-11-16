@@ -1,0 +1,34 @@
+{
+  "fault4_at500_noise": {
+    "xai_stability": 0.9873303167420815,
+    "xai_agreement": 0.9140271493212669
+  },
+  "fault2_at100_noise": {
+    "xai_stability": 0.9885369532428356,
+    "xai_agreement": 0.8680241327300151
+  },
+  "fault14_at300_noise": {
+    "xai_stability": 0.9828054298642535,
+    "xai_agreement": 0.8280542986425339
+  },
+  "fault1_at600_noise": {
+    "xai_stability": 0.9793363499245853,
+    "xai_agreement": 0.8717948717948718
+  },
+  "fault10_at800_noise": {
+    "xai_stability": 0.9841628959276019,
+    "xai_agreement": 0.8665158371040724
+  },
+  "fault6_at400_noise": {
+    "xai_stability": 0.9894419306184012,
+    "xai_agreement": 0.8227752639517345
+  },
+  "fault13_at200_noise": {
+    "xai_stability": 0.9882352941176471,
+    "xai_agreement": 0.8868778280542986
+  },
+  "fault12_at700_noise": {
+    "xai_stability": 0.985369532428356,
+    "xai_agreement": 0.8883861236802413
+  }
+}

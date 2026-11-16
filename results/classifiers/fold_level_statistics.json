@@ -1,0 +1,333 @@
+{
+  "TEP": {
+    "models": {
+      "1D-CNN": {
+        "fold_means": [
+          0.903957,
+          0.909898,
+          0.901151,
+          0.920204,
+          0.90118
+        ],
+        "mean": 0.9072779932237939,
+        "sd_between_folds": 0.008057439451584695,
+        "t95_ci": [
+          0.8972733607390545,
+          0.9172826257085333
+        ],
+        "sd_within_fold_across_seeds_mean": 0.011860823113381862,
+        "original_ci_25_iid": [
+          0.9016845117748878,
+          0.9126267697981613
+        ]
+      },
+      "KAN (Kolmogorov-Arnold)": {
+        "fold_means": [
+          0.89293,
+          0.903318,
+          0.906077,
+          0.906557,
+          0.9032
+        ],
+        "mean": 0.9024164434763936,
+        "sd_between_folds": 0.005521786029240105,
+        "t95_ci": [
+          0.8955602405581017,
+          0.9092726463946855
+        ],
+        "sd_within_fold_across_seeds_mean": 0.01056194924348534,
+        "original_ci_25_iid": [
+          0.8980566424520271,
+          0.9065208158409425
+        ]
+      },
+      "LSTM": {
+        "fold_means": [
+          0.8628,
+          0.837743,
+          0.860555,
+          0.854892,
+          0.844901
+        ],
+        "mean": 0.8521782276163468,
+        "sd_between_folds": 0.01062648008591513,
+        "t95_ci": [
+          0.8389837098660367,
+          0.8653727453666569
+        ],
+        "sd_within_fold_across_seeds_mean": 0.02032938975745685,
+        "original_ci_25_iid": [
+          0.8438914219232699,
+          0.860392737045351
+        ]
+      },
+      "Logistic Regression": {
+        "fold_means": [
+          0.602586,
+          0.611288,
+          0.602535,
+          0.60385,
+          0.600093
+        ],
+        "mean": 0.6040704297780526,
+        "sd_between_folds": 0.004258006847181581,
+        "t95_ci": [
+          0.5987834159718021,
+          0.6093574435843031
+        ],
+        "sd_within_fold_across_seeds_mean": 0.0,
+        "original_ci_25_iid": [
+          0.6025822554366341,
+          0.6057023981473988
+        ]
+      },
+      "XGBoost": {
+        "fold_means": [
+          0.921069,
+          0.923304,
+          0.919566,
+          0.920293,
+          0.921645
+        ],
+        "mean": 0.9211756377688431,
+        "sd_between_folds": 0.0014258208852119694,
+        "t95_ci": [
+          0.9194052473077884,
+          0.9229460282298979
+        ],
+        "sd_within_fold_across_seeds_mean": 0.0,
+        "original_ci_25_iid": [
+          0.920700075130318,
+          0.9216803015561598
+        ]
+      }
+    },
+    "comparisons": {
+      "XGBoost vs 1D-CNN": {
+        "fold_differences": [
+          0.017113,
+          0.013406,
+          0.018415,
+          9e-05,
+          0.020465
+        ],
+        "mean_difference": 0.01389764454504916,
+        "t95_ci_df4": [
+          0.00379556305351025,
+          0.02399972603658807
+        ],
+        "sign_flip_exact_p_two_sided": 0.0625,
+        "min_attainable_p": 0.0625,
+        "folds_favouring_first": 5,
+        "d_z_paired": 1.70818310126221,
+        "corrected_repeated_cv": {
+          "t": 1.8352263933085127,
+          "df": 24,
+          "p_two_sided": 0.07889603325603281,
+          "n_val_over_n_train_used": 0.25
+        }
+      },
+      "1D-CNN vs KAN (Kolmogorov-Arnold)": {
+        "fold_differences": [
+          0.011026,
+          0.00658,
+          -0.004926,
+          0.013646,
+          -0.002019
+        ],
+        "mean_difference": 0.004861549747400273,
+        "t95_ci_df4": [
+          -0.005173366011012655,
+          0.014896465505813201
+        ],
+        "sign_flip_exact_p_two_sided": 0.3125,
+        "min_attainable_p": 0.0625,
+        "folds_favouring_first": 3,
+        "d_z_paired": 0.6015408043423598,
+        "corrected_repeated_cv": {
+          "t": 0.5190804779168339,
+          "df": 24,
+          "p_two_sided": 0.6084585951631742,
+          "n_val_over_n_train_used": 0.25
+        }
+      }
+    },
+    "original_best_vs_second": {
+      "best": "XGBoost",
+      "second": "1D-CNN",
+      "difference": 0.01389764454504927,
+      "p_value": 9.999000099990002e-05,
+      "cohens_d_unpaired": 1.395427870906695
+    },
+    "original_pair_tests": {
+      "1D-CNN vs KAN (Kolmogorov-Arnold)": {
+        "mean_difference": 0.0048615497474002334,
+        "p_value": 0.17578242175782421,
+        "cohens_d": 0.38332705003515916,
+        "n_folds": 25
+      }
+    }
+  },
+  "CWRU": {
+    "models": {
+      "1D-CNN": {
+        "fold_means": [
+          0.993557,
+          1.0,
+          0.995822,
+          0.998787,
+          0.999849
+        ],
+        "mean": 0.9976028806154572,
+        "sd_between_folds": 0.002816755957233816,
+        "t95_ci": [
+          0.994105416151634,
+          1.0011003450792804
+        ],
+        "sd_within_fold_across_seeds_mean": 0.00372139765398193,
+        "original_ci_25_iid": [
+          0.9953622096835324,
+          0.9993480270567553
+        ]
+      },
+      "KAN (Kolmogorov-Arnold)": {
+        "fold_means": [
+          0.947317,
+          0.915018,
+          0.987064,
+          0.998316,
+          0.989932
+        ],
+        "mean": 0.9675293595732632,
+        "sd_between_folds": 0.03534564654286187,
+        "t95_ci": [
+          0.9236419427677562,
+          1.0114167763787703
+        ],
+        "sd_within_fold_across_seeds_mean": 0.005841191886917225,
+        "original_ci_25_iid": [
+          0.9547463408593654,
+          0.9801101642216596
+        ]
+      },
+      "LSTM": {
+        "fold_means": [
+          0.255672,
+          0.262962,
+          0.263564,
+          0.340414,
+          0.349869
+        ],
+        "mean": 0.29449628440206144,
+        "sd_between_folds": 0.046457247833076754,
+        "t95_ci": [
+          0.2368119923121001,
+          0.3521805764920228
+        ],
+        "sd_within_fold_across_seeds_mean": 0.11135930664594662,
+        "original_ci_25_iid": [
+          0.25154616513859507,
+          0.33763265853852203
+        ]
+      },
+      "Logistic Regression": {
+        "fold_means": [
+          0.332941,
+          0.289707,
+          0.259409,
+          0.288905,
+          0.350566
+        ],
+        "mean": 0.3043057537961672,
+        "sd_between_folds": 0.036830872744494814,
+        "t95_ci": [
+          0.25857418508690366,
+          0.35003732250543074
+        ],
+        "sd_within_fold_across_seeds_mean": 0.0,
+        "original_ci_25_iid": [
+          0.291603560403997,
+          0.31749197248327193
+        ]
+      },
+      "XGBoost": {
+        "fold_means": [
+          0.82572,
+          0.820764,
+          0.831671,
+          0.88631,
+          0.870611
+        ],
+        "mean": 0.8470151668121032,
+        "sd_between_folds": 0.02949139771670405,
+        "t95_ci": [
+          0.810396760010563,
+          0.8836335736136434
+        ],
+        "sd_within_fold_across_seeds_mean": 0.0,
+        "original_ci_25_iid": [
+          0.8369240335522276,
+          0.8578451520078249
+        ]
+      }
+    },
+    "comparisons": {
+      "1D-CNN vs KAN (Kolmogorov-Arnold)": {
+        "fold_differences": [
+          0.046239,
+          0.084982,
+          0.008758,
+          0.000471,
+          0.009917
+        ],
+        "mean_difference": 0.03007352104219385,
+        "t95_ci_df4": [
+          -0.01388398904878873,
+          0.07403103113317644
+        ],
+        "sign_flip_exact_p_two_sided": 0.0625,
+        "min_attainable_p": 0.0625,
+        "folds_favouring_first": 5,
+        "d_z_paired": 0.8494841564052936,
+        "corrected_repeated_cv": {
+          "t": 1.4380468510124742,
+          "df": 24,
+          "p_two_sided": 0.16333349159882726,
+          "n_val_over_n_train_used": 0.3538095238095238
+        }
+      },
+      "KAN (Kolmogorov-Arnold) vs XGBoost": {
+        "fold_differences": [
+          0.121598,
+          0.094254,
+          0.155393,
+          0.112006,
+          0.11932
+        ],
+        "mean_difference": 0.12051419276116004,
+        "t95_ci_df4": [
+          0.09288126156260124,
+          0.14814712395971885
+        ],
+        "sign_flip_exact_p_two_sided": 0.0625,
+        "min_attainable_p": 0.0625,
+        "folds_favouring_first": 5,
+        "d_z_paired": 5.415210328172703,
+        "corrected_repeated_cv": {
+          "t": 9.043790794111864,
+          "df": 24,
+          "p_two_sided": 3.3697319234327354e-09,
+          "n_val_over_n_train_used": 0.3538095238095238
+        }
+      }
+    },
+    "original_best_vs_second": {
+      "best": "1D-CNN",
+      "second": "KAN (Kolmogorov-Arnold)",
+      "difference": 0.03007352104219385,
+      "p_value": 9.999000099990002e-05,
+      "cohens_d_unpaired": 1.2780252181927905
+    },
+    "original_pair_tests": {}
+  }
+}

@@ -1,0 +1,5 @@
+comparison,dataset,model_A,model_B,fold_diff_1,fold_diff_2,fold_diff_3,fold_diff_4,fold_diff_5,mean_diff_A_minus_B,folds_favouring_A,signflip_exact_p_two_sided,signflip_min_attainable_p,descriptive_t95_low_df4,descriptive_t95_high_df4,paired_dz_folds_descriptive,corrected_cv_t_sensitivity,corrected_cv_df,corrected_cv_p_two_sided_sensitivity,corrected_cv_nval_over_ntrain
+TEP: XGBoost corrected (raw) vs 1D-CNN,TEP,XGBoost (corrected),1D-CNN,0.013081,0.005756,0.015421,-0.005013,0.014340,0.008717,4,0.125000,0.062500,-0.001908,0.019342,1.018686,1.134439,24,0.267815,0.250000
+TEP: XGBoost original (leaky isotonic) vs 1D-CNN [superseded],TEP,XGBoost,1D-CNN,0.017113,0.013406,0.018415,0.000090,0.020465,0.013898,5,0.062500,0.062500,0.003796,0.024000,1.708183,1.835226,24,0.078896,0.250000
+TEP: 1D-CNN vs KAN,TEP,1D-CNN,KAN (Kolmogorov-Arnold),0.011026,0.006580,-0.004926,0.013646,-0.002019,0.004862,3,0.312500,0.062500,-0.005173,0.014896,0.601541,0.519080,24,0.608459,0.250000
+CWRU: 1D-CNN vs KAN,CWRU,1D-CNN,KAN (Kolmogorov-Arnold),0.046239,0.084982,0.008758,0.000471,0.009917,0.030074,5,0.062500,0.062500,-0.013884,0.074031,0.849484,1.438047,24,0.163333,0.353810

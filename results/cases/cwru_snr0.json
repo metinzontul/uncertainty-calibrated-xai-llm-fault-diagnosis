@@ -1,0 +1,422 @@
+[
+  {
+    "case_id": "cwru_class0_win358",
+    "scenario": "Normal baseline",
+    "true_fault": 0,
+    "predicted_fault": 0,
+    "calibrated_confidence": 0.9999527931213379,
+    "raw_confidence": 0.9941084384918213,
+    "temperature": 0.5157561898231506,
+    "top_evidence": [
+      {
+        "sensor": "FE",
+        "attribution": 0.6307162523269654,
+        "mean": -0.014423875199708114,
+        "std": 0.8781526154186492,
+        "delta": -0.34161703288555145,
+        "trend": "stable"
+      },
+      {
+        "sensor": "DE",
+        "attribution": 0.22443371936678885,
+        "mean": -0.0242948828450551,
+        "std": 0.5854726514655055,
+        "delta": 0.09927322342991829,
+        "trend": "stable"
+      },
+      {
+        "sensor": "BA",
+        "attribution": 0.1448500171303749,
+        "mean": 0.009227292173704882,
+        "std": 0.9749559430453477,
+        "delta": 0.23533210158348083,
+        "trend": "stable"
+      }
+    ],
+    "degradation": "none",
+    "degradation_level": 0.0,
+    "xai_stability": 0.9692456161759082,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 358,
+    "is_correct": true
+  },
+  {
+    "case_id": "cwru_class1_win726",
+    "scenario": "Inner race fault, 0.007 in",
+    "true_fault": 1,
+    "predicted_fault": 1,
+    "calibrated_confidence": 0.9993670582771301,
+    "raw_confidence": 0.9780734181404114,
+    "temperature": 0.5157561898231506,
+    "top_evidence": [
+      {
+        "sensor": "FE",
+        "attribution": 0.6280282288789749,
+        "mean": -0.013462995613281237,
+        "std": 1.193049020378335,
+        "delta": -1.3684179186820984,
+        "trend": "falling"
+      },
+      {
+        "sensor": "DE",
+        "attribution": 0.2662459634244442,
+        "mean": 0.004854064428059246,
+        "std": 0.8878732994280648,
+        "delta": 0.5082046501338482,
+        "trend": "rising"
+      },
+      {
+        "sensor": "BA",
+        "attribution": 0.10572583340108395,
+        "mean": 0.008850616831892921,
+        "std": 1.0535989516997921,
+        "delta": 0.8064329028129578,
+        "trend": "rising"
+      }
+    ],
+    "degradation": "none",
+    "degradation_level": 0.0,
+    "xai_stability": 0.9714185626118068,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 726,
+    "is_correct": true
+  },
+  {
+    "case_id": "cwru_class2_win1014",
+    "scenario": "Inner race fault, 0.014 in",
+    "true_fault": 2,
+    "predicted_fault": 2,
+    "calibrated_confidence": 0.5879193544387817,
+    "raw_confidence": 0.3607916235923767,
+    "temperature": 0.5157561898231506,
+    "top_evidence": [
+      {
+        "sensor": "FE",
+        "attribution": 0.5544888749718666,
+        "mean": -0.01741157763535739,
+        "std": 0.9164747539997481,
+        "delta": 1.3703205212950706,
+        "trend": "rising"
+      },
+      {
+        "sensor": "DE",
+        "attribution": 0.3112004600465298,
+        "mean": 0.03178720143164071,
+        "std": 0.7264663316691574,
+        "delta": 1.1073818504810333,
+        "trend": "rising"
+      },
+      {
+        "sensor": "BA",
+        "attribution": 0.13431067168712615,
+        "mean": 0.040369977164573356,
+        "std": 0.9662892165562569,
+        "delta": 2.4757413268089294,
+        "trend": "rising"
+      }
+    ],
+    "degradation": "none",
+    "degradation_level": 0.0,
+    "xai_stability": 0.8771852848794152,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 1014,
+    "is_correct": true
+  },
+  {
+    "case_id": "cwru_class3_win1271",
+    "scenario": "Inner race fault, 0.021 in",
+    "true_fault": 3,
+    "predicted_fault": 3,
+    "calibrated_confidence": 1.0,
+    "raw_confidence": 0.9999990463256836,
+    "temperature": 0.5157561898231506,
+    "top_evidence": [
+      {
+        "sensor": "FE",
+        "attribution": 0.5287566319108009,
+        "mean": 0.005530904152237781,
+        "std": 1.1812924216128595,
+        "delta": 3.1603695154190063,
+        "trend": "rising"
+      },
+      {
+        "sensor": "DE",
+        "attribution": 0.3875789061188698,
+        "mean": 0.03178189930224562,
+        "std": 1.3377698412623957,
+        "delta": 0.9193021655082703,
+        "trend": "rising"
+      },
+      {
+        "sensor": "BA",
+        "attribution": 0.08366446122527123,
+        "mean": -0.019492421656096326,
+        "std": 1.0474666677989868,
+        "delta": 2.7797922492027283,
+        "trend": "rising"
+      }
+    ],
+    "degradation": "none",
+    "degradation_level": 0.0,
+    "xai_stability": 0.9530037359973947,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 1271,
+    "is_correct": true
+  },
+  {
+    "case_id": "cwru_class4_win1525",
+    "scenario": "Ball fault, 0.007 in",
+    "true_fault": 4,
+    "predicted_fault": 4,
+    "calibrated_confidence": 0.44200602173805237,
+    "raw_confidence": 0.3121415376663208,
+    "temperature": 0.5157561898231506,
+    "top_evidence": [
+      {
+        "sensor": "FE",
+        "attribution": 0.5529756158590317,
+        "mean": 0.0351877118758992,
+        "std": 0.898676153519927,
+        "delta": -0.298892080783844,
+        "trend": "stable"
+      },
+      {
+        "sensor": "DE",
+        "attribution": 0.30499028638005254,
+        "mean": -0.030755454967760443,
+        "std": 0.629232699681013,
+        "delta": 0.28566529182717204,
+        "trend": "stable"
+      },
+      {
+        "sensor": "BA",
+        "attribution": 0.14203408621251584,
+        "mean": -0.012431023439376077,
+        "std": 0.9875437538310012,
+        "delta": -0.19699497520923615,
+        "trend": "stable"
+      }
+    ],
+    "degradation": "none",
+    "degradation_level": 0.0,
+    "xai_stability": 0.8525028350927177,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 1525,
+    "is_correct": true
+  },
+  {
+    "case_id": "cwru_class5_win1880",
+    "scenario": "Ball fault, 0.014 in",
+    "true_fault": 5,
+    "predicted_fault": 4,
+    "calibrated_confidence": 0.33243030309677124,
+    "raw_confidence": 0.267127126455307,
+    "temperature": 0.5157561898231506,
+    "top_evidence": [
+      {
+        "sensor": "FE",
+        "attribution": 0.5793817654252053,
+        "mean": 0.0021833971559317433,
+        "std": 0.8698664207599935,
+        "delta": -0.215257465839386,
+        "trend": "stable"
+      },
+      {
+        "sensor": "DE",
+        "attribution": 0.28563599213957785,
+        "mean": -0.002033712077817995,
+        "std": 0.6251859928171305,
+        "delta": -1.1919474303722382,
+        "trend": "falling"
+      },
+      {
+        "sensor": "BA",
+        "attribution": 0.134982231259346,
+        "mean": 0.0094343164933548,
+        "std": 0.9792159027404667,
+        "delta": 0.717880368232727,
+        "trend": "rising"
+      }
+    ],
+    "degradation": "none",
+    "degradation_level": 0.0,
+    "xai_stability": 0.8521804360897827,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 1880,
+    "is_correct": false
+  },
+  {
+    "case_id": "cwru_class6_win2089",
+    "scenario": "Ball fault, 0.021 in",
+    "true_fault": 6,
+    "predicted_fault": 5,
+    "calibrated_confidence": 0.32820257544517517,
+    "raw_confidence": 0.2817089259624481,
+    "temperature": 0.5157561898231506,
+    "top_evidence": [
+      {
+        "sensor": "FE",
+        "attribution": 0.5728660896420479,
+        "mean": 0.0027482171761903373,
+        "std": 0.8830648549030639,
+        "delta": 0.5169680416584015,
+        "trend": "rising"
+      },
+      {
+        "sensor": "DE",
+        "attribution": 0.28640686720609665,
+        "mean": -0.01287931218837457,
+        "std": 0.6068639377634444,
+        "delta": -0.19333869218826294,
+        "trend": "stable"
+      },
+      {
+        "sensor": "BA",
+        "attribution": 0.14072703681886195,
+        "mean": 0.013096686943292468,
+        "std": 0.9558564682451578,
+        "delta": -0.3598882853984833,
+        "trend": "stable"
+      }
+    ],
+    "degradation": "none",
+    "degradation_level": 0.0,
+    "xai_stability": 0.8326866087973637,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 2089,
+    "is_correct": false
+  },
+  {
+    "case_id": "cwru_class7_win2363",
+    "scenario": "Outer race fault, 0.007 in",
+    "true_fault": 7,
+    "predicted_fault": 7,
+    "calibrated_confidence": 0.9999998807907104,
+    "raw_confidence": 0.9996951818466187,
+    "temperature": 0.5157561898231506,
+    "top_evidence": [
+      {
+        "sensor": "FE",
+        "attribution": 0.5444075435400009,
+        "mean": -0.011326572299651616,
+        "std": 1.210508396720842,
+        "delta": -0.21239574998617172,
+        "trend": "stable"
+      },
+      {
+        "sensor": "DE",
+        "attribution": 0.37879577428102496,
+        "mean": 0.0044720724822013835,
+        "std": 1.6421198214774004,
+        "delta": -2.1748154163360596,
+        "trend": "falling"
+      },
+      {
+        "sensor": "BA",
+        "attribution": 0.07679668739438057,
+        "mean": 0.04579033421703116,
+        "std": 1.0183142317402663,
+        "delta": -0.7349366545677185,
+        "trend": "falling"
+      }
+    ],
+    "degradation": "none",
+    "degradation_level": 0.0,
+    "xai_stability": 0.9571188669811211,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 2363,
+    "is_correct": true
+  },
+  {
+    "case_id": "cwru_class8_win2660",
+    "scenario": "Outer race fault, 0.014 in",
+    "true_fault": 8,
+    "predicted_fault": 8,
+    "calibrated_confidence": 0.6200436949729919,
+    "raw_confidence": 0.46621933579444885,
+    "temperature": 0.5157561898231506,
+    "top_evidence": [
+      {
+        "sensor": "FE",
+        "attribution": 0.6929315567016602,
+        "mean": 0.010838905089343598,
+        "std": 0.9542327492112993,
+        "delta": 0.1819801926612854,
+        "trend": "stable"
+      },
+      {
+        "sensor": "DE",
+        "attribution": 0.19085686206817626,
+        "mean": -0.06127740515058733,
+        "std": 0.5862822063806788,
+        "delta": 0.017541110515594482,
+        "trend": "stable"
+      },
+      {
+        "sensor": "BA",
+        "attribution": 0.11621157675981522,
+        "mean": 0.005612854398570732,
+        "std": 0.9738757390735158,
+        "delta": 0.28600162267684937,
+        "trend": "stable"
+      }
+    ],
+    "degradation": "none",
+    "degradation_level": 0.0,
+    "xai_stability": 0.9751228369287036,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 2660,
+    "is_correct": true
+  },
+  {
+    "case_id": "cwru_class9_win2916",
+    "scenario": "Outer race fault, 0.021 in",
+    "true_fault": 9,
+    "predicted_fault": 9,
+    "calibrated_confidence": 0.9899755120277405,
+    "raw_confidence": 0.9144079089164734,
+    "temperature": 0.5157561898231506,
+    "top_evidence": [
+      {
+        "sensor": "DE",
+        "attribution": 0.6049651890993119,
+        "mean": -0.02820927561094777,
+        "std": 1.7184230843603359,
+        "delta": -0.8729523718357086,
+        "trend": "falling"
+      },
+      {
+        "sensor": "FE",
+        "attribution": 0.30512898564338686,
+        "mean": -0.029672434919177704,
+        "std": 1.1393765403356444,
+        "delta": 1.3554535061120987,
+        "trend": "rising"
+      },
+      {
+        "sensor": "BA",
+        "attribution": 0.08990583494305611,
+        "mean": -0.03477254474907454,
+        "std": 1.0862714874045276,
+        "delta": -1.8261766731739044,
+        "trend": "falling"
+      }
+    ],
+    "degradation": "none",
+    "degradation_level": 0.0,
+    "xai_stability": 0.9380748902714019,
+    "xai_agreement": null,
+    "data_quality": 1.0,
+    "window_start": 2916,
+    "is_correct": true
+  }
+]

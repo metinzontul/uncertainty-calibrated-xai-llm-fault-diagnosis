@@ -1,0 +1,76 @@
+{
+  "TEP": {
+    "n_windows": 150,
+    "levels": {
+      "Clean": {
+        "spearman_rho": 1.0,
+        "spearman_sd": 0.0,
+        "jaccard_top1": 1.0,
+        "jaccard_top1_sd": 0.0,
+        "jaccard_top3": 1.0,
+        "jaccard_top3_sd": 0.0
+      },
+      "10 dB": {
+        "spearman_rho": 0.8200609009931984,
+        "spearman_sd": 0.09404430336035777,
+        "jaccard_top1": 0.8866666666666667,
+        "jaccard_top1_sd": 0.3180618036828199,
+        "jaccard_top3": 0.7633333333333333,
+        "jaccard_top3_sd": 0.2504805225362291
+      },
+      "5 dB": {
+        "spearman_rho": 0.6946390050940551,
+        "spearman_sd": 0.13625881673262769,
+        "jaccard_top1": 0.8333333333333334,
+        "jaccard_top1_sd": 0.3739265022471316,
+        "jaccard_top3": 0.6926666666666667,
+        "jaccard_top3_sd": 0.2506626564484778
+      },
+      "0 dB": {
+        "spearman_rho": 0.5594262784939811,
+        "spearman_sd": 0.16594484354556646,
+        "jaccard_top1": 0.6666666666666666,
+        "jaccard_top1_sd": 0.4729837698404021,
+        "jaccard_top3": 0.6446666666666667,
+        "jaccard_top3_sd": 0.2518486460002714
+      }
+    }
+  },
+  "CWRU": {
+    "n_windows": 150,
+    "levels": {
+      "Clean": {
+        "spearman_rho": 1.0,
+        "spearman_sd": 0.0,
+        "jaccard_top1": 1.0,
+        "jaccard_top1_sd": 0.0,
+        "jaccard_top3": 1.0,
+        "jaccard_top3_sd": 0.0
+      },
+      "10 dB": {
+        "spearman_rho": 0.84,
+        "spearman_sd": 0.23401944507057726,
+        "jaccard_top1": 0.9933333333333333,
+        "jaccard_top1_sd": 0.08164965809277258,
+        "jaccard_top3": 1.0,
+        "jaccard_top3_sd": 0.0
+      },
+      "5 dB": {
+        "spearman_rho": 0.35333333333333333,
+        "spearman_sd": 0.7740477298869733,
+        "jaccard_top1": 0.6866666666666666,
+        "jaccard_top1_sd": 0.4654025704405886,
+        "jaccard_top3": 1.0,
+        "jaccard_top3_sd": 0.0
+      },
+      "0 dB": {
+        "spearman_rho": 0.4,
+        "spearman_sd": 0.6730677040448366,
+        "jaccard_top1": 0.5666666666666667,
+        "jaccard_top1_sd": 0.49719571540626184,
+        "jaccard_top3": 1.0,
+        "jaccard_top3_sd": 0.0
+      }
+    }
+  }
+}
